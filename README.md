@@ -1,5 +1,10 @@
 # Debian steamrun
 
+![steam](https://img.shields.io/badge/Steam-000000?style=flat&logo=steam&logoColor=white)
+![shell script](https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white)
+![bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?style=flat)
+![not maintained](https://img.shields.io/badge/Maintained%3F-no-red.svg?style=flat)
+
 This scripts was my update and runtime helper for the first Steam version on Linux. 
 So the script installs the Steam libs and I was able to run steam from console on Debian GNU Linux.
 
