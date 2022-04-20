@@ -5,8 +5,9 @@
 ![bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?style=flat)
 ![not maintained](https://img.shields.io/badge/Maintained%3F-no-red.svg?style=flat)
 
-This scripts was my update and runtime helper for the first Steam version on Linux. 
-So the script installs the Steam libs and I was able to run steam from console on Debian GNU Linux.
+This scripts was my update and runtime helper for the first Steam version on
+Linux. So the script installs the Steam libs and I was able to run steam via
+console on Debian GNU Linux.
 
 ## Notes
 
@@ -23,11 +24,12 @@ You can run the script manually or link it to may `/usr/bin`.
 
 ## PROBLEMS
 
-There exists some libraries update problems. So you have to run 
+There exists some libraries update problems. So you have to run
+
 ```bash
 root# aptitude safe-upgrade --full-resolver -y
-``` 
+```
 
-- this will uninstall steam 
+- this will uninstall steam
 - upgrade the system
 - you have to run `./steamrun` again (but the libs are cached!)
